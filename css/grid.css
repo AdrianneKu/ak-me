@@ -1,0 +1,115 @@
+
+/*Sections========= */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+/*Columnb Set Up========= */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*Grouping========= */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+/* Columns========= */
+	.span-1 {
+		width: 6.866%;
+	}
+	.span-2 {
+		width: 15.33%;
+	}
+	.span-3 {
+		width: 23.8%;
+	}
+	.span-4 {
+		width: 32.26%;
+	}
+	.span-5 {
+		width: 40.73%;
+	}
+	.span-6 {
+		width: 49.2%;
+	}
+	.span-7 {
+		width: 57.66%;
+	}
+	.span-8 {
+		width: 66.13%;
+	}
+	.span-9 {
+		width: 74.6%;
+	}
+	.span-10 {
+		width: 83.06%;
+	}
+	.span-11 {
+		width: 91.53%;
+	}
+	.span-12 {
+		width: 100%;
+	}
+	
+/* Media Queries========= */
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 768px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.span-12 {
+		width: 100%; 
+	}
+	.span-11 {
+		width: 100%; 
+	}
+	.span-10 {
+		width: 100%; 
+	}
+	.span-9 {
+		width: 100%; 
+	}
+	.span-8 {
+		width: 100%; 
+	}
+	.span-7 {
+		width: 100%; 
+	}
+	.span-6 {
+		width: 100%; 
+	}
+	.span-5 {
+		width: 100%; 
+	}
+	.span-4 {
+		width: 100%; 
+	}
+	.span-3 {
+		width: 100%; 
+	}
+	.span-2 {
+		width: 100%; 
+	}
+	.span-1 {
+		width: 100%;
+	}
+}
